@@ -1,7 +1,7 @@
 # TECH-A-THON-Stroke_risk_factor
 ## Team name - PATTERNS
 ### Team members
-#### Bund Agarwal<br />Hritik Kumar<br />Atulya
+#### Bund Agarwal<br />Hritik Ritesh<br />Atulya
 ## DESCRIPTION
 Healthcare today is witnessing a revolution due to it's amalgamation with technology. In our project, Stroke Risk Factor, we focus on how machine learning can bring about unforeseen and implementable results in healthcare.<br />
 ### STEPS OF EXECUTION
@@ -25,8 +25,19 @@ We begin by reading data from our CSV file to our Pandas Dataframe. To check the
  From the table we can observe that there are some missing BMI values and 5 non-numerical valued variables. Firstly, we deal with the missing data (BMI values in our case) by replacing them with mean values. Then by using ***LabelEncoder***, we replace the string values stored in the gender, ever_married, work_type, Residence_type and smoking_status with integer values.<br />
 <br />
 **Graphical Analysis**<br />
-Using Mutual Info Classifier, we plot a bar graph to should interdepency between stroke risk factor and the variable. In the bar graph below, the lesser the corresponding variable value across the axes, the lesser it's contribution in deciding the risk factor.
+Using Mutual Info Classifier, we plot a bar graph to should interdepency between stroke risk factor and the variable. In the bar graph below, the lesser the corresponding variable value across the axes, the lesser it's contribution in deciding the risk factor for stroke.
 <img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(144).png" alt="Risk factor dependency" width="700"/><br />
-For every variable, we plot graphs to help in better visualization
+<br />
+For every variable, we plot graphs to help in better visualization. In each of the following graphs we can see which which categorization of the variable gets a higher ratio of stroke cases.<br />
+<br />
+<img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(155).png" width="300"/>
+<img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(157).png" width="300"/>
+<img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(158).png" width="300"/><br />
+<img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(159).png" width="300"/>
+<img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(160).png" width="300"/>
+<img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(161).png" width="300"/><br />
+This leads us to deciding on which factors to include in our model's execution. Residence, gender and ID are inconsequential in deciding the risk factor for the stroke. Therefore those will be dropped in the model execution.
+
+
  
 
