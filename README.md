@@ -26,7 +26,7 @@ We begin by reading data from our CSV file to our Pandas Dataframe. To check the
 <br />
 **Graphical Analysis**<br />
 Using Mutual Info Classifier, we plot a bar graph to should interdepency between stroke risk factor and the variable. In the bar graph below, the lesser the corresponding variable value across the axes, the lesser it's contribution in deciding the risk factor.
-
+<img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(144).png" alt="Risk factor dependency" width="700"/><br />
 For every variable, we plot graphs to help in better visualization
  
 
