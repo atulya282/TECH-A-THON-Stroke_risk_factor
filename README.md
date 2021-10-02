@@ -41,7 +41,8 @@ This leads us to deciding on which factors to include in our model's execution. 
 Following is the number of stroke cases:<br />
 <img src="https://github.com/atulya282/TECH-A-THON-Stroke_risk_factor/blob/main/Screenshot%20(147).png" alt="" width="600"/><br />
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist.
-It is similar to linear regression but is used to model the probability of a finite number of outcomes, typically two. There are a number of reasons why logistic regression is used over linear regression when modeling probabilities of outcomes (see here). In essence, a logistic equation is created in such a way that the output values can only be between 0 and 1.
+It is similar to linear regression but is used to model the probability of a finite number of outcomes, typically two. There are a number of reasons why logistic regression is used over linear regression when modeling probabilities of outcomes (see here). In essence, a logistic equation is created in such a way that the output values can only be between 0 and 1.<br />
+We apply Logistic Regression in our model due to the high compatibility of datatypes, outcome and classification nature of our problem.
 ##### Accuracy of Model
 Accuracy=0.9405320813771518
 ##### Matrix Description
