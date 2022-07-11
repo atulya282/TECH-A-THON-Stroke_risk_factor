@@ -3,7 +3,7 @@
 ## Domain - Health and safety
 ### Domain - Machine Learning
 ### Team members
-#### Bund Agarwal<br />Hritik Ritesh<br />Atulya
+#### Atulya <br/>Bund Agarwal<br />Hritik Ritesh<br/>
 ## DESCRIPTION
 Healthcare today is witnessing a revolution due to it's amalgamation with technology. In our project, Stroke Risk Factor, we focus on how machine learning can bring about unforeseen and implementable results in healthcare.<br />
 ### STEPS OF EXECUTION
