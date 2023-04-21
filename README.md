@@ -2,7 +2,6 @@
 <!-- ## Team name - PATTERNS -->
 ## Domain - Health and safety
 ### Domain - Machine Learning
-### Team members
 #### Atulya <br/>
 
 ## DESCRIPTION
