@@ -1,4 +1,4 @@
-# TECH-A-THON-Stroke_risk_factor
+# Stroke_risk_factor
 <!-- ## Team name - PATTERNS -->
 ## Domain - Health and safety
 ### Domain - Machine Learning
